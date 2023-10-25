@@ -1,0 +1,214 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(220, 7%, 17%);
+    color: #fff;
+    text-align: center;
+    
+    height: fit-content;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#about-me,
+#projects,
+#tech-stack,
+#accounts {
+    text-align: center;
+    width: 80vw;
+}
+
+.content
+{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+
+#about-me h2,
+#projects h2,
+#tech-stack h2,
+#acoounts h2 {
+    padding-bottom: 1rem;
+}
+
+/* Navigation */
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav-toggle {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    color: #fff;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.logo {
+    height: 40px;
+}
+
+.links a {
+    color: #fff;
+    font-size: 1.2rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+}
+
+.links a:hover {
+    background-color: rgb(0, 187, 255);
+    padding-left: 1.5rem;
+}
+
+.links {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+
+.show-links {
+    height: 10rem;
+    transition: all 0.3s linear;
+}
+
+/* Main */
+
+.show-content {
+    height: fit-content;
+    transition: all 1s linear;
+}
+
+
+/* section */
+.section-center h1 {
+    font-size: 3.3em;
+    padding-top: 0.5em;
+}
+
+.section-center h2 {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+
+.section-center h3 {
+    font-size: 1.9em;
+    padding-bottom: .5em;
+}
+
+.blue {
+    color: rgb(0, 187, 255);
+}
+
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    text-align: start;
+}
+
+.desc {
+    text-align: start;
+    width: 80vw;
+    font-size: 1.2em;
+    padding: 1.5rem 0;
+    line-height: 1.2;
+}
+
+#moto {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* About me */
+
+.img {
+    width: 80vw;
+    height: 40vh;
+    border-radius: 4px;
+}
+
+
+/* Projects */
+
+#projects a {
+    display: inline-block; 
+    background-color: rgb(0, 187, 255);
+    color: #fff; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border: none; 
+    border-radius: 5px;
+    text-align: center; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin: 10px; 
+
+    &:hover {
+        background-color: rgb(3, 123, 167);
+    }
+}
+
+.box {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(3, 123, 167);
+    border-radius: 6px ;
+}
+
+.box p {
+    text-align: start;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Tech Stack */
+
+
+/* Accounts*/
+
+#accounts h3 {
+    margin-top: 1.5rem;
+}
+
+#accounts a:hover,
+a:focus {
+    color: rgb(3, 123, 167);
+}
+
+.border {
+    border: 2px solid white;
+    margin: 20px 0;
+}
+
+/* Footer */
+
+#footer {
+    position: static;
+    bottom: 0;
+    right: auto;
+    
+    text-align: center;
+}
